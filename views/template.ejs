@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flux Demo</title>
+  <link rel="stylesheet" type="text/css" href="/public/basscss.min.css">
+</head>
+<body>
+  <nav class="clearfix green bg-navy">
+    <div class="container">
+      <div class="py2">React &amp; Flux - <%= id %></div>
+    </div>
+  </nav>
+  <section id="container" class="container px2 py3">
+    <div class="sm-col-6 bg-white border rounded">
+      <% if (typeof bundleIds !== 'undefined') { %>
+        <% bundleIds.forEach(function(id) { %>
+          <a href="/<%= id %>" class="btn block border-bottom">/<%= id %></a>
+        <% }); %>
+      <% } %>
+    </div>
+  </section>
+  <script src="/public/c/<%= id %>.bundle.js"></script>
+</body>
+</html>

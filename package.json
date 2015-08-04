@@ -1,0 +1,31 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^5.8.20",
+    "babel-runtime": "^5.8.20",
+    "ejs": "^2.3.3",
+    "express": "^4.13.2",
+    "fluxible": "^0.5.1",
+    "fluxible-addons-react": "^0.1.6",
+    "glob": "^5.0.14",
+    "lodash.contains": "^2.4.3",
+    "lodash.without": "^3.2.1",
+    "moment": "^2.10.6",
+    "react": "^0.13.3",
+    "webpack": "^1.10.5"
+  },
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "babel-core": "^5.8.20",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.10.5"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/webpack && node ./app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
