@@ -5,12 +5,7 @@ install dependencies
 npm install
 ```
 
-build assets
+build assets & run
 ```
-webpack
-```
-
-run
-```
-npm app.js
+npm run
 ```
